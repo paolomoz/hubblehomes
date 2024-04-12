@@ -1,0 +1,30 @@
+header {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav > .section > .default-content-wrapper {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  font-size: 16px;
+  list-style: none;
+  height: 50px;
+}
+
+nav ul li {
+  padding: 15px 13px;
+}
+
+nav ul li:hover {
+  background-color: #003264;
+}
+
+nav a:any-link {
+  color: #717171;
+}
+
+nav ul li:hover a:any-link {
+  color: #fff;
+}

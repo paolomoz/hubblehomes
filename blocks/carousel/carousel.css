@@ -1,3 +1,16 @@
+.section.carousel-container {
+    padding: 0;
+}
+
+.section.carousel-container > div {
+    max-width: unset;
+    padding: 0;
+}
+
+.carousel nav {
+    display: none;
+}
+
 .carousel .carousel-slides-container {
     position: relative;
   }
