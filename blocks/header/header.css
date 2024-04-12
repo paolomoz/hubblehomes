@@ -1,9 +1,61 @@
 header {
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+}
+
+header a:any-link {
+  font-weight: 600;
+  font-size: 16px;
+  color: #717171;
+  text-decoration: none;
+}
+
+header a:hover {
+  color:#003264;
+}
+
+.header.block {
+  position: relative;
+}
+
+.header.block .secondary-nav {
+  position: absolute;
+  top: 0;
+  left: 26%;
+  display: flex;
+  gap: 30px;
+}
+
+.header.block .secondary-nav input {
+  width: 260px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 30px;
+}
+
+.header.block .secondary-nav .get-details {
+  font-size: 12px;
+  transform: translateY(-12px);
+}
+
+.header.block .secondary-nav input::placeholder {
+  color: #aaa;
 }
 
 nav > .section > .default-content-wrapper {
   display: flex;
+}
+
+nav > .section > .default-content-wrapper p {
+  flex-basis: 20%;
+  text-align: left;
+  transform: translateY(5px);
 }
 
 nav ul {
@@ -11,6 +63,11 @@ nav ul {
   font-size: 16px;
   list-style: none;
   height: 50px;
+  transform: translateY(40px);
+  flex-basis: 60%;
+  padding: 0;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 nav ul li {
