@@ -10,8 +10,4 @@ export default function decorate(block) {
   form.innerHTML = formHtml;
 
   text.append(form);
-
-  const lm = text.querySelector('.button-container a');
-  lm.setAttribute('aria-label', 'learn more about this offer');
-  lm.setAttribute('title', 'learn more about this offer');
 }
