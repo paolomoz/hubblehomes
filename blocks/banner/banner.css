@@ -55,7 +55,8 @@
 
 
 .spotlight-blue .spotlightcircle h3 a:any-link {
-  color: #fcd700;
+  /* color: #fcd700; */
+  color: white;
 }
 
 .text-left .spotlightcircle {
