@@ -36,4 +36,7 @@ export default async function decorate(block) {
   navWrapper.append(nav);
   block.append(buildSecNav());
   block.append(navWrapper);
+
+  const moreInfoLink = block.querySelector('nav ul li:last-of-type a');
+  moreInfoLink.setAttribute('aria-label', 'more info about hubble homes');
 }
