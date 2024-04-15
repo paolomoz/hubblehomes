@@ -201,6 +201,10 @@ main img.search-by-map {
   height: 60px;
 }
 
+nav img {
+  height: 60px;
+}
+
 .icon {
   display: inline-block;
   height: 24px;
