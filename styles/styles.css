@@ -265,7 +265,7 @@ main .section.highlight {
   width: 470px;
   text-align: center;
   border-radius: 288px;
-  border: 10px solid white;
+  /* border: 10px solid white; */
   height: 460px;
   padding: 25px;
   /* top: 50%; */
@@ -292,13 +292,13 @@ main .section.highlight {
   margin-bottom: 15px;
 }
 
-.spotlight-white .spotlightcircle {
+/* .spotlight-white .spotlightcircle {
   background: RGBA(255, 255, 255, 0.5);
 }
 
 .spotlight-blue .spotlightcircle {
   background: RGBA(0, 50, 100, 0.5);
-}
+} */
 
 .spotlight-white .spotlightcircle h2 a:any-link {
   color: #383838;
