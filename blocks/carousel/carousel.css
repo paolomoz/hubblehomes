@@ -237,7 +237,8 @@
 }
 
 .carousel .search-form label {
-  display: none;
+  /* display: none; */
+  height: 0;
 }
 
 .homesearchbutton {
