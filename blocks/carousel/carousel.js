@@ -5,20 +5,16 @@ function buildSearchForm() {
     <div class='row'><img src='/images/searchbymap.png' alt='search by map'/></div>
     <div class='row'><input class='homesearch form-control' type='text' placeholder='Type a Community, Plan Name, Address, Metro Area, City, MLS Number'/></div>
     <div class='row'>
-      <label for="HomeStyle" class="sr-only">Home Type</label>
-      <select name="HomeStyle" id="HomeStyle" class="homesearchselect homesearch-hometype form-control">
+      <select aria-label='HomeStyle' name="HomeStyle" id="HomeStyle" class="homesearchselect homesearch-hometype form-control">
         <option value="">Home Type</option><option value="1">1 Story</option><option value="6">1.5 Story</option><option value="4">2 Story</option><option value="5">Primary Down</option>
       </select>
-      <label for="PriceRange" class="sr-only">Price Range</label>
-      <select name="PriceRange" id="PriceRange" class="homesearchselect homesearch-price form-control">
+      <select aria-label='PriceRange' name="PriceRange" id="PriceRange" class="homesearchselect homesearch-price form-control">
         <option value="">Price</option><option value="1">$300 - $399</option><option value="2">$400 - $499</option><option value="3">$500 - $599</option>
       </select>
-      <label for="Beds" class="sr-only">Beds</label>
-      <select name="Beds" id="Beds" class="homesearchselect homesearch-bed  form-control">
+      <select aria-label='Beds' name="Beds" id="Beds" class="homesearchselect homesearch-bed  form-control">
         <option value="">Bed</option><option value="2">2+</option><option value="3">3+</option><option value="4">4+</option><option value="5">5+</option>
       </select>
-      <label for="City" class="sr-only">City</label>
-      <select name="City" id="City" class="homesearchselect homesearch-city form-control">
+      <select aria-label='City' name="City" id="City" class="homesearchselect homesearch-city form-control">
         <option value="">City</option><option value="8">Caldwell</option><option value="10">Kuna</option><option value="4">Meridian</option><option value="9">Middleton</option><option value="5">Nampa</option><option value="6">Star</option>
       </select>
       <button type="button" class="btn dropdown-toggle homesearchselect btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
