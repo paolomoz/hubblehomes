@@ -197,6 +197,10 @@ main img {
   height: auto;
 }
 
+main img.search-by-map {
+  height: 60px;
+}
+
 .icon {
   display: inline-block;
   height: 24px;

@@ -2,7 +2,7 @@ import { fetchPlaceholders } from '../../scripts/aem.js';
 
 function buildSearchForm() {
   const sfHtml = `<div>
-    <div class='row'><img src='/images/searchbymap.png' alt='search by map'/></div>
+    <div class='row'><img class='search-by-map' src='/images/searchbymap.png' alt='search by map'/></div>
     <div class='row'><input class='homesearch form-control' type='text' placeholder='Type a Community, Plan Name, Address, Metro Area, City, MLS Number'/></div>
     <div class='row'>
       <select aria-label='HomeStyle' name="HomeStyle" id="HomeStyle" class="homesearchselect homesearch-hometype form-control">
