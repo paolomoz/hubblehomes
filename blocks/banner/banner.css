@@ -14,6 +14,10 @@
   transform: translateY(-15%);
 }
 
+.spotlightcircle a:any-link {
+  text-decoration: none;
+}
+
 .spotlightcircle h2 {
   font-size: 42px;
 }
